@@ -32,6 +32,13 @@ Generated files:
 - `security-patch-evidence.csv` — one auditable row per merged PR.
 - `security-patch-summary.json` — machine-readable totals and groupings.
 
+To make a generated package tamper-evident, write and verify a SHA-256 manifest:
+
+```powershell
+patch-ledger attest dist
+patch-ledger verify-manifest dist\SHA256SUMS
+```
+
 ## Evidence format
 
 Each record must include:
