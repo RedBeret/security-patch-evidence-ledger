@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/RedBeret/security-patch-evidence-ledger/schemas/ledger.schema.json",
+  "title": "Security patch evidence ledger",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["owner", "generated_at", "records"],
+  "properties": {
+    "owner": {"type": "string", "minLength": 1},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/record"}
+    }
+  },
+  "$defs": {
+    "record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repository", "number", "url", "title", "merged_at", "category",
+        "advisories", "validations", "estimate_hours", "estimate_basis"
+      ],
+      "properties": {
+        "repository": {"type": "string", "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"},
+        "number": {"type": "integer", "minimum": 1},
+        "url": {"type": "string", "format": "uri", "pattern": "^https://github\\.com/[^/]+/[^/]+/pull/[1-9][0-9]*$"},
+        "title": {"type": "string", "minLength": 1},
+        "merged_at": {"type": "string", "format": "date-time"},
+        "category": {"enum": ["dependency", "manual-remediation", "security-hardening"]},
+        "advisories": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"type": "string", "pattern": "^(CVE-[0-9]{4}-[0-9]{4,}|GHSA-[23456789cfghjmpqrvwx]{4}-[23456789cfghjmpqrvwx]{4}-[23456789cfghjmpqrvwx]{4})$"}
+        },
+        "validations": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {"enum": ["audit", "build", "ci", "diff-review", "integration-test", "manual-test", "unit-test"]}
+        },
+        "estimate_hours": {"type": "number", "exclusiveMinimum": 0, "maximum": 24, "multipleOf": 0.01},
+        "estimate_basis": {"type": "string", "minLength": 1},
+        "notes": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

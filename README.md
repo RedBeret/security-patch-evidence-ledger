@@ -45,6 +45,8 @@ Each record must include:
 
 Supported validation values are `audit`, `build`, `ci`, `diff-review`, `integration-test`, `manual-test`, and `unit-test`.
 
+The machine-readable contract is published at `schemas/ledger.schema.json`. Editors and ingestion pipelines can use it for completion and preliminary checks; the CLI remains the authoritative validator for cross-field rules such as matching a PR URL to its repository and number.
+
 ## Tests
 
 ```powershell
