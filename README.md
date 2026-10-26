@@ -5,6 +5,8 @@ Security Patch Evidence Ledger turns a reviewed JSON list of merged security pul
 The tool is intentionally dependency-free at runtime and works offline after checkout.
 CSV text fields beginning with spreadsheet formula characters are neutralized during export.
 
+The current account history and generated certification package are in data/security-patch-history.json and evidence/.
+
 ## What it proves
 
 It can prove that a supplied set of merged PR records is internally consistent and that all generated totals reconcile to those records. It does **not** claim that every repository vulnerability is fixed, replace a vulnerability scanner, or turn estimated hours into a time sheet.
