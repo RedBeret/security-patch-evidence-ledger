@@ -1,0 +1,45 @@
+{
+  "owner": "RedBeret",
+  "generated_at": "2026-10-25T20:00:00-07:00",
+  "records": [
+    {
+      "repository": "RedBeret/airgap-patch",
+      "number": 6,
+      "url": "https://github.com/RedBeret/airgap-patch/pull/6",
+      "title": "Bump ansible-core for argument-injection CVE",
+      "merged_at": "2026-07-26T22:30:27Z",
+      "category": "manual-remediation",
+      "advisories": ["CVE-2026-11332"],
+      "validations": ["unit-test", "diff-review"],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated from one dependency pin, advisory triage, and ten passing tests.",
+      "notes": "Patch remained within the existing minor release line."
+    },
+    {
+      "repository": "RedBeret/reactresolve",
+      "number": 32,
+      "url": "https://github.com/RedBeret/reactresolve/pull/32",
+      "title": "Update React Router security release",
+      "merged_at": "2026-08-30T01:11:00Z",
+      "category": "dependency",
+      "advisories": [],
+      "validations": ["audit", "build"],
+      "estimate_hours": 0.75,
+      "estimate_basis": "Estimated from dependency review, clean install, build, and audit evidence.",
+      "notes": "The PR documents that a separate UUID advisory remained."
+    },
+    {
+      "repository": "RedBeret/tiny-swarm-maze",
+      "number": 10,
+      "url": "https://github.com/RedBeret/tiny-swarm-maze/pull/10",
+      "title": "Use patched pytest for backend tests",
+      "merged_at": "2026-10-15T06:30:22Z",
+      "category": "dependency",
+      "advisories": ["GHSA-6w46-j5rx-g56g"],
+      "validations": ["unit-test", "ci"],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated from advisory triage, version-range update, and nine passing tests.",
+      "notes": "Existing application dependencies were preserved."
+    }
+  ]
+}
