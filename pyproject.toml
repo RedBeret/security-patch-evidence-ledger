@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "security-patch-evidence-ledger"
+version = "0.1.0"
+description = "Build auditable security-patch history reports from verified pull-request records."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Steven Espinoza" }]
+keywords = ["security", "evidence", "github", "cve", "compliance"]
+
+[project.scripts]
+patch-ledger = "patchledger.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
