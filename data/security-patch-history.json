@@ -1,0 +1,941 @@
+{
+  "owner": "RedBeret",
+  "generated_at": "2026-10-26T04:30:00Z",
+  "records": [
+    {
+      "repository": "RedBeret/AIChatPoweredEcommerce",
+      "number": 2,
+      "url": "https://github.com/RedBeret/AIChatPoweredEcommerce/pull/2",
+      "title": "Bump the pip group across 1 directories with 4 updates",
+      "merged_at": "2024-02-02T23:21:02Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2023-30861",
+        "GHSA-G4MX-Q9VG-27P4",
+        "GHSA-M2QF-HXJV-5GPQ"
+      ],
+      "validations": [
+        "build",
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated using the documented 0.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Grouped Python dependency security update."
+    },
+    {
+      "repository": "RedBeret/reactresolve",
+      "number": 5,
+      "url": "https://github.com/RedBeret/reactresolve/pull/5",
+      "title": "Bump idna from 3.6 to 3.7",
+      "merged_at": "2024-04-16T01:15:17Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2024-3651"
+      ],
+      "validations": [
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated using the documented 0.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "IDNA CVE remediation."
+    },
+    {
+      "repository": "RedBeret/TryOpenAIChatCompletions",
+      "number": 2,
+      "url": "https://github.com/RedBeret/TryOpenAIChatCompletions/pull/2",
+      "title": "Bump idna from 3.6 to 3.7",
+      "merged_at": "2024-04-16T18:51:52Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2024-3651"
+      ],
+      "validations": [
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated using the documented 0.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "IDNA CVE remediation."
+    },
+    {
+      "repository": "RedBeret/AIChatPoweredEcommerce",
+      "number": 49,
+      "url": "https://github.com/RedBeret/AIChatPoweredEcommerce/pull/49",
+      "title": "Bump the pip group across 1 directory with 3 updates",
+      "merged_at": "2024-04-18T06:12:58Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2024-1135",
+        "CVE-2024-21503",
+        "CVE-2024-3651"
+      ],
+      "validations": [
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.75,
+      "estimate_basis": "Estimated using the documented 0.75-hour scope band from merged PR size and validation evidence.",
+      "notes": "Grouped Python dependency security update."
+    },
+    {
+      "repository": "RedBeret/AIChatPoweredEcommerce",
+      "number": 56,
+      "url": "https://github.com/RedBeret/AIChatPoweredEcommerce/pull/56",
+      "title": "Bump the pip group across 1 directory with 5 updates",
+      "merged_at": "2024-07-21T23:46:30Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2024-1135",
+        "CVE-2024-34062",
+        "CVE-2024-3651",
+        "GHSA-G7VV-2V7X-GJ9P"
+      ],
+      "validations": [
+        "build",
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 1,
+      "estimate_basis": "Estimated using the documented 1.00-hour scope band from merged PR size and validation evidence.",
+      "notes": "Grouped Python dependency security update."
+    },
+    {
+      "repository": "RedBeret/AIChatPoweredEcommerce",
+      "number": 60,
+      "url": "https://github.com/RedBeret/AIChatPoweredEcommerce/pull/60",
+      "title": "Bump the pip group across 1 directory with 4 updates",
+      "merged_at": "2024-07-30T01:53:49Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2024-1135",
+        "CVE-2024-3651"
+      ],
+      "validations": [
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.75,
+      "estimate_basis": "Estimated using the documented 0.75-hour scope band from merged PR size and validation evidence.",
+      "notes": "Grouped Python dependency security update."
+    },
+    {
+      "repository": "RedBeret/AIChatPoweredEcommerce",
+      "number": 61,
+      "url": "https://github.com/RedBeret/AIChatPoweredEcommerce/pull/61",
+      "title": "Bump the pip group across 1 directory with 2 updates",
+      "merged_at": "2024-07-31T02:30:11Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2024-34062",
+        "GHSA-G7VV-2V7X-GJ9P"
+      ],
+      "validations": [
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated using the documented 0.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Grouped Python dependency security update."
+    },
+    {
+      "repository": "RedBeret/neon-grid-hacker",
+      "number": 2,
+      "url": "https://github.com/RedBeret/neon-grid-hacker/pull/2",
+      "title": "Bump the npm_and_yarn group across 1 directory with 3 updates",
+      "merged_at": "2025-05-31T01:54:13Z",
+      "category": "dependency",
+      "advisories": [
+        "GHSA-VG6X-RCGG-RJX6"
+      ],
+      "validations": [
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.75,
+      "estimate_basis": "Estimated using the documented 0.75-hour scope band from merged PR size and validation evidence.",
+      "notes": "Grouped npm advisory remediation."
+    },
+    {
+      "repository": "RedBeret/AI-Chess-Mentor-for-Beginners",
+      "number": 2,
+      "url": "https://github.com/RedBeret/AI-Chess-Mentor-for-Beginners/pull/2",
+      "title": "Bump the npm_and_yarn group across 1 directory with 5 updates",
+      "merged_at": "2025-06-02T23:15:21Z",
+      "category": "dependency",
+      "advisories": [
+        "GHSA-VG6X-RCGG-RJX6"
+      ],
+      "validations": [
+        "build",
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 1.5,
+      "estimate_basis": "Estimated using the documented 1.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Grouped npm advisory remediation."
+    },
+    {
+      "repository": "RedBeret/AI-Chess-Mentor-for-Beginners",
+      "number": 3,
+      "url": "https://github.com/RedBeret/AI-Chess-Mentor-for-Beginners/pull/3",
+      "title": "Bump the npm_and_yarn group across 1 directory with 2 updates",
+      "merged_at": "2026-03-03T08:13:55Z",
+      "category": "dependency",
+      "advisories": [],
+      "validations": [
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.75,
+      "estimate_basis": "Estimated using the documented 0.75-hour scope band from merged PR size and validation evidence.",
+      "notes": "ReDoS-related dependency update."
+    },
+    {
+      "repository": "RedBeret/AI-Chess-Mentor-for-Beginners",
+      "number": 4,
+      "url": "https://github.com/RedBeret/AI-Chess-Mentor-for-Beginners/pull/4",
+      "title": "build(deps): bump the npm_and_yarn group across 1 directory with 7 updates",
+      "merged_at": "2026-03-03T08:25:14Z",
+      "category": "dependency",
+      "advisories": [],
+      "validations": [
+        "audit",
+        "build",
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 1,
+      "estimate_basis": "Estimated using the documented 1.00-hour scope band from merged PR size and validation evidence.",
+      "notes": "Prototype-pollution/ReDoS dependency update."
+    },
+    {
+      "repository": "RedBeret/intent-config-workbench",
+      "number": 2,
+      "url": "https://github.com/RedBeret/intent-config-workbench/pull/2",
+      "title": "Bump actions/setup-python from 5 to 6",
+      "merged_at": "2026-03-12T04:46:55Z",
+      "category": "dependency",
+      "advisories": [],
+      "validations": [
+        "diff-review"
+      ],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated using the documented 0.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Setup-python security update."
+    },
+    {
+      "repository": "RedBeret/reactresolve",
+      "number": 12,
+      "url": "https://github.com/RedBeret/reactresolve/pull/12",
+      "title": "Bump the pip group across 1 directory with 3 updates",
+      "merged_at": "2026-03-23T05:52:21Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2024-34062",
+        "GHSA-G7VV-2V7X-GJ9P"
+      ],
+      "validations": [
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.75,
+      "estimate_basis": "Estimated using the documented 0.75-hour scope band from merged PR size and validation evidence.",
+      "notes": "Grouped Python advisory remediation."
+    },
+    {
+      "repository": "RedBeret/TryOpenAIChatCompletions",
+      "number": 4,
+      "url": "https://github.com/RedBeret/TryOpenAIChatCompletions/pull/4",
+      "title": "Bump the pip group across 1 directory with 2 updates",
+      "merged_at": "2026-03-23T05:52:36Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2024-34062",
+        "GHSA-G7VV-2V7X-GJ9P"
+      ],
+      "validations": [
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.75,
+      "estimate_basis": "Estimated using the documented 0.75-hour scope band from merged PR size and validation evidence.",
+      "notes": "Grouped Python advisory remediation."
+    },
+    {
+      "repository": "RedBeret/reactresolve",
+      "number": 20,
+      "url": "https://github.com/RedBeret/reactresolve/pull/20",
+      "title": "Bump the npm_and_yarn group across 1 directory with 6 updates",
+      "merged_at": "2026-03-24T02:29:00Z",
+      "category": "dependency",
+      "advisories": [],
+      "validations": [
+        "build",
+        "ci",
+        "diff-review",
+        "unit-test"
+      ],
+      "estimate_hours": 1.5,
+      "estimate_basis": "Estimated using the documented 1.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "ReDoS-related dependency refresh."
+    },
+    {
+      "repository": "RedBeret/dev-portfolio",
+      "number": 10,
+      "url": "https://github.com/RedBeret/dev-portfolio/pull/10",
+      "title": "Bump the npm_and_yarn group across 1 directory with 22 updates",
+      "merged_at": "2026-03-24T02:33:12Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2025-12816",
+        "CVE-2025-66030",
+        "CVE-2025-66031",
+        "CVE-2025-7339",
+        "GHSA-554W-WPV2-VW27",
+        "GHSA-5GFM-WPXJ-WJGQ",
+        "GHSA-65CH-62R8-G69G",
+        "GHSA-76C9-3JPH-RJ3Q"
+      ],
+      "validations": [
+        "build",
+        "ci",
+        "diff-review",
+        "unit-test"
+      ],
+      "estimate_hours": 1.5,
+      "estimate_basis": "Estimated using the documented 1.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "22-package security refresh."
+    },
+    {
+      "repository": "RedBeret/tiny-swarm-maze",
+      "number": 2,
+      "url": "https://github.com/RedBeret/tiny-swarm-maze/pull/2",
+      "title": "Bump picomatch from 4.0.3 to 4.0.4 in /frontend in the npm_and_yarn group across 1 directory",
+      "merged_at": "2026-04-04T06:52:19Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2026-33671",
+        "CVE-2026-33672",
+        "GHSA-3V7F-55P6-F55P",
+        "GHSA-C2C7-RCM5-VVQJ"
+      ],
+      "validations": [
+        "diff-review"
+      ],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated using the documented 0.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Picomatch CVE remediation."
+    },
+    {
+      "repository": "RedBeret/dune-awakening-transfer-prep",
+      "number": 7,
+      "url": "https://github.com/RedBeret/dune-awakening-transfer-prep/pull/7",
+      "title": "Bump the npm_and_yarn group across 1 directory with 1 update",
+      "merged_at": "2026-04-05T05:43:06Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2026-33671",
+        "CVE-2026-33672",
+        "GHSA-3V7F-55P6-F55P",
+        "GHSA-C2C7-RCM5-VVQJ"
+      ],
+      "validations": [
+        "diff-review"
+      ],
+      "estimate_hours": 0.75,
+      "estimate_basis": "Estimated using the documented 0.75-hour scope band from merged PR size and validation evidence.",
+      "notes": "Npm advisory remediation."
+    },
+    {
+      "repository": "RedBeret/AI-Chess-Mentor-for-Beginners",
+      "number": 9,
+      "url": "https://github.com/RedBeret/AI-Chess-Mentor-for-Beginners/pull/9",
+      "title": "build(deps): bump the npm_and_yarn group across 1 directory with 1 update",
+      "merged_at": "2026-04-05T05:43:08Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2026-33671",
+        "CVE-2026-33672",
+        "GHSA-3V7F-55P6-F55P",
+        "GHSA-C2C7-RCM5-VVQJ"
+      ],
+      "validations": [
+        "build",
+        "diff-review"
+      ],
+      "estimate_hours": 0.75,
+      "estimate_basis": "Estimated using the documented 0.75-hour scope band from merged PR size and validation evidence.",
+      "notes": "Npm advisory remediation."
+    },
+    {
+      "repository": "RedBeret/dev-portfolio",
+      "number": 11,
+      "url": "https://github.com/RedBeret/dev-portfolio/pull/11",
+      "title": "Bump micromatch from 4.0.5 to 4.0.8 in the npm_and_yarn group across 1 directory",
+      "merged_at": "2026-04-05T05:43:11Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2024-4067",
+        "CVE-2024-4068"
+      ],
+      "validations": [
+        "diff-review"
+      ],
+      "estimate_hours": 1,
+      "estimate_basis": "Estimated using the documented 1.00-hour scope band from merged PR size and validation evidence.",
+      "notes": "Micromatch CVE remediation."
+    },
+    {
+      "repository": "RedBeret/reactresolve",
+      "number": 24,
+      "url": "https://github.com/RedBeret/reactresolve/pull/24",
+      "title": "Bump the npm_and_yarn group across 1 directory with 1 update",
+      "merged_at": "2026-04-05T05:43:13Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2026-33671",
+        "CVE-2026-33672",
+        "GHSA-3V7F-55P6-F55P",
+        "GHSA-C2C7-RCM5-VVQJ"
+      ],
+      "validations": [
+        "diff-review"
+      ],
+      "estimate_hours": 0.75,
+      "estimate_basis": "Estimated using the documented 0.75-hour scope band from merged PR size and validation evidence.",
+      "notes": "Npm advisory remediation."
+    },
+    {
+      "repository": "RedBeret/AI-Chess-Mentor-for-Beginners",
+      "number": 12,
+      "url": "https://github.com/RedBeret/AI-Chess-Mentor-for-Beginners/pull/12",
+      "title": "build(deps): bump the npm_and_yarn group across 1 directory with 3 updates",
+      "merged_at": "2026-04-05T05:44:59Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2021-23337",
+        "CVE-2026-4800",
+        "GHSA-F23M-R3PF-42RH",
+        "GHSA-F886-M6HF-6M8V",
+        "GHSA-R5FR-RJXR-66JC"
+      ],
+      "validations": [
+        "build",
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.75,
+      "estimate_basis": "Estimated using the documented 0.75-hour scope band from merged PR size and validation evidence.",
+      "notes": "Grouped npm advisory remediation."
+    },
+    {
+      "repository": "RedBeret/dune-awakening-transfer-prep",
+      "number": 8,
+      "url": "https://github.com/RedBeret/dune-awakening-transfer-prep/pull/8",
+      "title": "Bump lodash from 4.17.23 to 4.18.1 in the npm_and_yarn group across 1 directory",
+      "merged_at": "2026-04-05T05:45:01Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2021-23337",
+        "CVE-2026-4800",
+        "GHSA-F23M-R3PF-42RH",
+        "GHSA-R5FR-RJXR-66JC"
+      ],
+      "validations": [
+        "build",
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated using the documented 0.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Lodash security update."
+    },
+    {
+      "repository": "RedBeret/dev-portfolio",
+      "number": 15,
+      "url": "https://github.com/RedBeret/dev-portfolio/pull/15",
+      "title": "Bump the npm_and_yarn group across 1 directory with 6 updates",
+      "merged_at": "2026-04-12T18:28:32Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2021-23337",
+        "CVE-2022-24771",
+        "CVE-2022-35961",
+        "CVE-2026-25793",
+        "CVE-2026-33671",
+        "CVE-2026-33672",
+        "CVE-2026-33891",
+        "CVE-2026-33894",
+        "CVE-2026-33895",
+        "CVE-2026-33896",
+        "CVE-2026-4800",
+        "CVE-2026-4867",
+        "GHSA-2328-F5F3-GJ25",
+        "GHSA-37CH-88JC-XWX2",
+        "GHSA-3V7F-55P6-F55P",
+        "GHSA-5GFM-WPXJ-WJGQ",
+        "GHSA-5M6Q-G25R-MVWX",
+        "GHSA-C2C7-RCM5-VVQJ",
+        "GHSA-F23M-R3PF-42RH",
+        "GHSA-F886-M6HF-6M8V",
+        "GHSA-PPP5-5V6C-4JWP",
+        "GHSA-Q67F-28XG-22RW",
+        "GHSA-R5FR-RJXR-66JC"
+      ],
+      "validations": [
+        "build",
+        "ci",
+        "diff-review",
+        "unit-test"
+      ],
+      "estimate_hours": 1,
+      "estimate_basis": "Estimated using the documented 1.00-hour scope band from merged PR size and validation evidence.",
+      "notes": "Grouped multi-advisory npm remediation."
+    },
+    {
+      "repository": "RedBeret/airgap-patch",
+      "number": 2,
+      "url": "https://github.com/RedBeret/airgap-patch/pull/2",
+      "title": "Bump pytest from 8.4.1 to 9.0.3 in the pip group across 1 directory",
+      "merged_at": "2026-07-26T22:28:25Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2025-71176"
+      ],
+      "validations": [
+        "ci",
+        "diff-review",
+        "unit-test"
+      ],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated using the documented 0.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Pytest CVE remediation."
+    },
+    {
+      "repository": "RedBeret/airgap-patch",
+      "number": 6,
+      "url": "https://github.com/RedBeret/airgap-patch/pull/6",
+      "title": "Bump ansible-core to 2.18.18 for CVE-2026-11332",
+      "merged_at": "2026-07-26T22:30:27Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2026-11332"
+      ],
+      "validations": [
+        "build",
+        "diff-review",
+        "unit-test"
+      ],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated using the documented 0.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Ansible argument-injection CVE remediation."
+    },
+    {
+      "repository": "RedBeret/saas-launch-pad-kit",
+      "number": 9,
+      "url": "https://github.com/RedBeret/saas-launch-pad-kit/pull/9",
+      "title": "build(deps): bump the npm_and_yarn group across 1 directory with 2 updates",
+      "merged_at": "2026-08-28T05:36:13Z",
+      "category": "dependency",
+      "advisories": [],
+      "validations": [
+        "build",
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 1.5,
+      "estimate_basis": "Estimated using the documented 1.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Path-traversal-related dependency refresh."
+    },
+    {
+      "repository": "RedBeret/saas-launch-pad-kit",
+      "number": 10,
+      "url": "https://github.com/RedBeret/saas-launch-pad-kit/pull/10",
+      "title": "build(deps): bump the npm_and_yarn group across 1 directory with 8 updates",
+      "merged_at": "2026-08-28T05:39:01Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2026-13149",
+        "GHSA-MH99-V99M-4GVG"
+      ],
+      "validations": [
+        "build",
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 1.5,
+      "estimate_basis": "Estimated using the documented 1.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Grouped npm advisory remediation."
+    },
+    {
+      "repository": "RedBeret/AI-Chess-Mentor-for-Beginners",
+      "number": 16,
+      "url": "https://github.com/RedBeret/AI-Chess-Mentor-for-Beginners/pull/16",
+      "title": "build(deps): bump the npm_and_yarn group across 1 directory with 7 updates",
+      "merged_at": "2026-08-28T05:39:06Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2026-13149",
+        "GHSA-MH99-V99M-4GVG"
+      ],
+      "validations": [
+        "build",
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 1.5,
+      "estimate_basis": "Estimated using the documented 1.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Grouped npm advisory remediation."
+    },
+    {
+      "repository": "RedBeret/restore-verify",
+      "number": 11,
+      "url": "https://github.com/RedBeret/restore-verify/pull/11",
+      "title": "Bump the python-dependencies group across 1 directory with 6 updates",
+      "merged_at": "2026-08-30T00:55:21Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2026-11332"
+      ],
+      "validations": [
+        "ci",
+        "diff-review",
+        "unit-test"
+      ],
+      "estimate_hours": 0.75,
+      "estimate_basis": "Estimated using the documented 0.75-hour scope band from merged PR size and validation evidence.",
+      "notes": "Grouped Python advisory remediation."
+    },
+    {
+      "repository": "RedBeret/AIChatPoweredEcommerce",
+      "number": 85,
+      "url": "https://github.com/RedBeret/AIChatPoweredEcommerce/pull/85",
+      "title": "Bump pyjwt from 2.12.1 to 2.13.0 in the pip group across 1 directory",
+      "merged_at": "2026-08-30T01:02:53Z",
+      "category": "dependency",
+      "advisories": [
+        "GHSA-993G-76C3-P5M4",
+        "GHSA-FHV5-28VV-H8M8",
+        "GHSA-JQ35-7PRP-9V3F",
+        "GHSA-W7VC-732C-9M39",
+        "GHSA-XGMM-8J9V-C9WX"
+      ],
+      "validations": [
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated using the documented 0.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "PyJWT advisory remediation."
+    },
+    {
+      "repository": "RedBeret/reactresolve",
+      "number": 32,
+      "url": "https://github.com/RedBeret/reactresolve/pull/32",
+      "title": "Update React Router security release",
+      "merged_at": "2026-08-30T01:11:00Z",
+      "category": "dependency",
+      "advisories": [],
+      "validations": [
+        "audit",
+        "build",
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.75,
+      "estimate_basis": "Estimated using the documented 0.75-hour scope band from merged PR size and validation evidence.",
+      "notes": "React Router security release; build and audit verified."
+    },
+    {
+      "repository": "RedBeret/reactresolve",
+      "number": 33,
+      "url": "https://github.com/RedBeret/reactresolve/pull/33",
+      "title": "Update UUID security release",
+      "merged_at": "2026-08-30T01:13:03Z",
+      "category": "dependency",
+      "advisories": [],
+      "validations": [
+        "audit",
+        "build",
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.75,
+      "estimate_basis": "Estimated using the documented 0.75-hour scope band from merged PR size and validation evidence.",
+      "notes": "UUID security release; audit verified at zero vulnerabilities."
+    },
+    {
+      "repository": "RedBeret/field-sync-notebook",
+      "number": 6,
+      "url": "https://github.com/RedBeret/field-sync-notebook/pull/6",
+      "title": "Bump pytest from 8.3.4 to 9.0.3 in /backend in the pip group across 1 directory",
+      "merged_at": "2026-08-30T01:13:47Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2025-71176"
+      ],
+      "validations": [
+        "ci",
+        "diff-review",
+        "unit-test"
+      ],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated using the documented 0.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Pytest CVE remediation."
+    },
+    {
+      "repository": "RedBeret/dev-portfolio",
+      "number": 28,
+      "url": "https://github.com/RedBeret/dev-portfolio/pull/28",
+      "title": "deps: bump the npm group across 1 directory with 12 updates",
+      "merged_at": "2026-08-30T01:13:49Z",
+      "category": "dependency",
+      "advisories": [],
+      "validations": [
+        "ci",
+        "diff-review",
+        "unit-test"
+      ],
+      "estimate_hours": 1.5,
+      "estimate_basis": "Estimated using the documented 1.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "12-package security refresh."
+    },
+    {
+      "repository": "RedBeret/Web-Dev-Bootcamp-Angela-Yu",
+      "number": 2,
+      "url": "https://github.com/RedBeret/Web-Dev-Bootcamp-Angela-Yu/pull/2",
+      "title": "fix(security): refresh all example dependencies and check routes in CI",
+      "merged_at": "2026-10-15T05:28:47Z",
+      "category": "dependency",
+      "advisories": [],
+      "validations": [
+        "audit",
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 1.5,
+      "estimate_basis": "Estimated using the documented 1.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Refreshed ten lockfiles; zero-vulnerability audits and 29 route checks."
+    },
+    {
+      "repository": "RedBeret/restore-verify",
+      "number": 17,
+      "url": "https://github.com/RedBeret/restore-verify/pull/17",
+      "title": "Bump the python-dependencies group across 1 directory with 7 updates",
+      "merged_at": "2026-10-15T05:29:44Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2026-32274"
+      ],
+      "validations": [
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 1,
+      "estimate_basis": "Estimated using the documented 1.00-hour scope band from merged PR size and validation evidence.",
+      "notes": "Grouped Python/path-traversal remediation."
+    },
+    {
+      "repository": "RedBeret/rag-eval-bench",
+      "number": 3,
+      "url": "https://github.com/RedBeret/rag-eval-bench/pull/3",
+      "title": "fix(security): patch local model loading and keep remote code disabled",
+      "merged_at": "2026-10-15T06:30:02Z",
+      "category": "security-hardening",
+      "advisories": [
+        "GHSA-JHR6-GM9C-RQJV"
+      ],
+      "validations": [
+        "build",
+        "ci",
+        "diff-review",
+        "unit-test"
+      ],
+      "estimate_hours": 1,
+      "estimate_basis": "Estimated using the documented 1.00-hour scope band from merged PR size and validation evidence.",
+      "notes": "Hardened local model loading and disabled remote code."
+    },
+    {
+      "repository": "RedBeret/tiny-swarm-maze",
+      "number": 10,
+      "url": "https://github.com/RedBeret/tiny-swarm-maze/pull/10",
+      "title": "fix(security): use patched pytest for backend tests",
+      "merged_at": "2026-10-15T06:30:22Z",
+      "category": "dependency",
+      "advisories": [
+        "GHSA-6W46-J5RX-G56G"
+      ],
+      "validations": [
+        "ci",
+        "diff-review",
+        "unit-test"
+      ],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated using the documented 0.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Patched Pytest advisory; 9 tests passed."
+    },
+    {
+      "repository": "RedBeret/field-sync-notebook",
+      "number": 10,
+      "url": "https://github.com/RedBeret/field-sync-notebook/pull/10",
+      "title": "fix(security): refresh compatible frontend dependency resolutions",
+      "merged_at": "2026-10-15T06:30:37Z",
+      "category": "dependency",
+      "advisories": [],
+      "validations": [
+        "audit",
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 1,
+      "estimate_basis": "Estimated using the documented 1.00-hour scope band from merged PR size and validation evidence.",
+      "notes": "Compatible frontend refresh; audit reported zero vulnerabilities."
+    },
+    {
+      "repository": "RedBeret/saas-launch-pad-kit",
+      "number": 15,
+      "url": "https://github.com/RedBeret/saas-launch-pad-kit/pull/15",
+      "title": "fix(security): refresh dependencies and patch selector parser",
+      "merged_at": "2026-10-15T06:57:35Z",
+      "category": "dependency",
+      "advisories": [],
+      "validations": [
+        "audit",
+        "build",
+        "diff-review"
+      ],
+      "estimate_hours": 1.5,
+      "estimate_basis": "Estimated using the documented 1.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Selector-parser security patch with output validation."
+    },
+    {
+      "repository": "RedBeret/AI-Chess-Mentor-for-Beginners",
+      "number": 20,
+      "url": "https://github.com/RedBeret/AI-Chess-Mentor-for-Beginners/pull/20",
+      "title": "fix(security): patch frontend tooling and preserve local publishing",
+      "merged_at": "2026-10-15T07:15:37Z",
+      "category": "dependency",
+      "advisories": [],
+      "validations": [
+        "audit",
+        "build",
+        "diff-review"
+      ],
+      "estimate_hours": 1.5,
+      "estimate_basis": "Estimated using the documented 1.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Frontend tooling and selector-parser remediation with build/publish validation."
+    },
+    {
+      "repository": "RedBeret/reactresolve",
+      "number": 34,
+      "url": "https://github.com/RedBeret/reactresolve/pull/34",
+      "title": "Bump browserslist from 4.28.1 to 4.28.9 in /client in the npm_and_yarn group across 1 directory",
+      "merged_at": "2026-10-26T04:07:06Z",
+      "category": "dependency",
+      "advisories": [],
+      "validations": [
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated using the documented 0.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Browserslist prototype-pollution remediation; reviewed lockfile-only change."
+    },
+    {
+      "repository": "RedBeret/edge-lab-console",
+      "number": 8,
+      "url": "https://github.com/RedBeret/edge-lab-console/pull/8",
+      "title": "build(deps): bump source-map-js from 1.2.1 to 1.2.2 in /frontend in the npm_and_yarn group across 1 directory",
+      "merged_at": "2026-10-26T04:07:11Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2026-93749"
+      ],
+      "validations": [
+        "build",
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated using the documented 0.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Source-map-js CVE-2026-93749 remediation; CI passed."
+    },
+    {
+      "repository": "RedBeret/repo-flight-deck",
+      "number": 8,
+      "url": "https://github.com/RedBeret/repo-flight-deck/pull/8",
+      "title": "Bump source-map-js from 1.2.1 to 1.2.2 in /frontend in the npm_and_yarn group across 1 directory",
+      "merged_at": "2026-10-26T04:07:17Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2026-93749"
+      ],
+      "validations": [
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated using the documented 0.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Source-map-js CVE-2026-93749 remediation; CI passed."
+    },
+    {
+      "repository": "RedBeret/telemetry-replay-studio",
+      "number": 7,
+      "url": "https://github.com/RedBeret/telemetry-replay-studio/pull/7",
+      "title": "Bump source-map-js from 1.2.1 to 1.2.2 in /frontend in the npm_and_yarn group across 1 directory",
+      "merged_at": "2026-10-26T04:07:22Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2026-93749"
+      ],
+      "validations": [
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.5,
+      "estimate_basis": "Estimated using the documented 0.50-hour scope band from merged PR size and validation evidence.",
+      "notes": "Source-map-js CVE-2026-93749 remediation; CI passed."
+    },
+    {
+      "repository": "RedBeret/tiny-swarm-maze",
+      "number": 12,
+      "url": "https://github.com/RedBeret/tiny-swarm-maze/pull/12",
+      "title": "ci: add frontend security validation",
+      "merged_at": "2026-10-26T04:12:54Z",
+      "category": "security-hardening",
+      "advisories": [],
+      "validations": [
+        "audit",
+        "build",
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.75,
+      "estimate_basis": "Estimated using the documented 0.75-hour scope band from merged PR size and validation evidence.",
+      "notes": "Frontend security validation workflow."
+    },
+    {
+      "repository": "RedBeret/tiny-swarm-maze",
+      "number": 13,
+      "url": "https://github.com/RedBeret/tiny-swarm-maze/pull/13",
+      "title": "fix(security): update Vite and patch source-map DoS",
+      "merged_at": "2026-10-26T04:14:34Z",
+      "category": "dependency",
+      "advisories": [
+        "CVE-2026-93749"
+      ],
+      "validations": [
+        "audit",
+        "build",
+        "ci",
+        "diff-review"
+      ],
+      "estimate_hours": 0.75,
+      "estimate_basis": "Estimated using the documented 0.75-hour scope band from merged PR size and validation evidence.",
+      "notes": "Vite and source-map security update."
+    }
+  ]
+}
+
