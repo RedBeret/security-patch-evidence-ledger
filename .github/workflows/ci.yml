@@ -10,11 +10,15 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: ${{ matrix.python-version }}
       - name: Run unit tests
         env:
           PYTHONPATH: src
@@ -25,3 +29,9 @@ jobs:
         run: python -m patchledger.cli build tests/fixtures/valid-ledger.json --output-dir dist
       - name: Verify generated artifacts
         run: test -s dist/security-patch-evidence.md && test -s dist/security-patch-evidence.csv && test -s dist/security-patch-summary.json
+      - name: Write and verify checksums
+        env:
+          PYTHONPATH: src
+        run: |
+          python -m patchledger.cli attest dist
+          python -m patchledger.cli verify-manifest dist/SHA256SUMS
