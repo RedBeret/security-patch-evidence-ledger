@@ -66,3 +66,5 @@ The suite checks successful report generation and failure cases for duplicated P
 ## Responsible use
 
 Use repository evidence and honest estimates. Do not create empty pull requests to inflate activity, count a superseded PR twice, or present reconstructed hours as contemporaneous records. Certification evidence is strongest when another reviewer can reproduce the count directly from the linked pull requests.
+
+See docs/effort-method.md for the estimation bands, required disclosure, and review rule used by this project.
