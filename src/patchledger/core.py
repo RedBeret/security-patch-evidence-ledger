@@ -257,10 +257,11 @@ def write_markdown(ledger: Ledger, destination: Path) -> None:
         "",
         "## Summary",
         "",
-        f"- Merged security-remediation PRs: **{summary['record_count']}**",
+        f"- Merged security-related PRs (remediation and hardening): **{summary['record_count']}**",
         f"- Distinct CVE/GHSA identifiers: **{summary['distinct_advisory_count']}**",
         f"- Estimated hands-on hours: **{summary['estimated_hours']:.2f}**",
         "- Disclosure: hours are reconstructed estimates from repository evidence, not contemporaneous time-sheet entries.",
+        "- CVE and GHSA identifiers may refer to the same vulnerability; this is an identifier count.",
         "",
         "## Timeline",
         "",
@@ -279,7 +280,9 @@ def write_markdown(ledger: Ledger, destination: Path) -> None:
         "",
         "## Attestation boundary",
         "",
-        "This report counts only merged pull requests supplied in the validated ledger. Open, closed-unmerged, duplicated, or malformed records are rejected or excluded before report generation.",
+        "Merge status and security relevance must be checked against GitHub before records are supplied. The offline validator checks record structure, PR URL consistency, duplicates, timestamps, and estimates; it does not contact GitHub or independently confirm that a PR was merged.",
+        "",
+        "SHA-256 checksums detect changes relative to a trusted manifest. They do not authenticate the author or establish the truth of source records.",
         "",
     ])
     destination.write_text("\n".join(lines), encoding="utf-8", newline="\n")
