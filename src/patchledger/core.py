@@ -206,7 +206,7 @@ def summarize(ledger: Ledger) -> dict[str, Any]:
 
 
 def write_json(ledger: Ledger, destination: Path) -> None:
-    destination.write_text(json.dumps(summarize(ledger), indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    destination.write_text(json.dumps(summarize(ledger), indent=2, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
 
 
 def _csv_safe(value: Any) -> Any:
@@ -273,7 +273,7 @@ def write_markdown(ledger: Ledger, destination: Path) -> None:
         "This report counts only merged pull requests supplied in the validated ledger. Open, closed-unmerged, duplicated, or malformed records are rejected or excluded before report generation.",
         "",
     ])
-    destination.write_text("\n".join(lines), encoding="utf-8")
+    destination.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
 
 def build_reports(ledger: Ledger, output_dir: str | Path) -> tuple[Path, Path, Path]:

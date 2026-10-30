@@ -30,7 +30,7 @@ def write_manifest(files: Iterable[Path], destination: Path) -> Path:
         raise EvidenceError("manifest: duplicate file names are not allowed")
     if any(not path.is_file() for path in items):
         raise EvidenceError("manifest: every input must be an existing file")
-    destination.write_text("".join(f"{_digest(path)}  {path.name}\n" for path in items), encoding="utf-8")
+    destination.write_text("".join(f"{_digest(path)}  {path.name}\n" for path in items), encoding="utf-8", newline="\n")
     return destination
 
 

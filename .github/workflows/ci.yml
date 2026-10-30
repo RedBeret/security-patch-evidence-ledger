@@ -35,3 +35,13 @@ jobs:
         run: |
           python -m patchledger.cli attest dist
           python -m patchledger.cli verify-manifest dist/SHA256SUMS
+      - name: Reproduce published evidence
+        env:
+          PYTHONPATH: src
+        run: |
+          python -m patchledger.cli build data/security-patch-history.json --output-dir reproduced
+          python -m patchledger.cli attest reproduced
+          cmp evidence/security-patch-evidence.md reproduced/security-patch-evidence.md
+          cmp evidence/security-patch-evidence.csv reproduced/security-patch-evidence.csv
+          cmp evidence/security-patch-summary.json reproduced/security-patch-summary.json
+          cmp evidence/SHA256SUMS reproduced/SHA256SUMS

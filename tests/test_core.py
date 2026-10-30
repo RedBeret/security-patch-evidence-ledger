@@ -29,6 +29,8 @@ class LedgerTests(unittest.TestCase):
             with csv_path.open(encoding="utf-8", newline="") as handle:
                 self.assertEqual(len(list(csv.DictReader(handle))), 3)
             self.assertEqual(json.loads(json_path.read_text(encoding="utf-8"))["estimated_hours"], 1.75)
+            self.assertNotIn(b"\r\n", markdown_path.read_bytes())
+            self.assertNotIn(b"\r\n", json_path.read_bytes())
 
     def test_duplicate_pull_request_is_rejected(self) -> None:
         raw = json.loads(FIXTURE.read_text(encoding="utf-8"))

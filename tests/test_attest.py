@@ -17,6 +17,7 @@ class ManifestTests(unittest.TestCase):
             first.write_text("evidence", encoding="utf-8")
             second.write_text('{"count": 1}', encoding="utf-8")
             manifest = write_manifest([second, first], root / "SHA256SUMS")
+            self.assertNotIn(b"\r\n", manifest.read_bytes())
             self.assertEqual([path.name for path in verify_manifest(manifest)], ["report.md", "summary.json"])
             first.write_text("changed", encoding="utf-8")
             with self.assertRaisesRegex(EvidenceError, "checksum mismatch"):
