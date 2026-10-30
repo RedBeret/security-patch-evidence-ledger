@@ -32,7 +32,7 @@
         "advisories": {
           "type": "array",
           "uniqueItems": true,
-          "items": {"type": "string", "pattern": "^(CVE-[0-9]{4}-[0-9]{4,}|GHSA-[23456789cfghjmpqrvwx]{4}-[23456789cfghjmpqrvwx]{4}-[23456789cfghjmpqrvwx]{4})$"}
+          "items": {"type": "string", "pattern": "^([Cc][Vv][Ee]-[0-9]{4}-[0-9]{4,}|[Gg][Hh][Ss][Aa]-[23456789cfghjmpqrvwxCFGHJMPQRVWX]{4}-[23456789cfghjmpqrvwxCFGHJMPQRVWX]{4}-[23456789cfghjmpqrvwxCFGHJMPQRVWX]{4})$"}
         },
         "validations": {
           "type": "array",

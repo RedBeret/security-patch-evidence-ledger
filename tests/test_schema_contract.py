@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 import unittest
 from pathlib import Path
 
@@ -13,6 +14,18 @@ FIXTURE = ROOT / "tests" / "fixtures" / "valid-ledger.json"
 
 
 class SchemaContractTests(unittest.TestCase):
+    def test_advisory_schema_accepts_published_identifiers(self) -> None:
+        schema = json.loads(SCHEMA.read_text(encoding="utf-8"))
+        pattern = schema["$defs"]["record"]["properties"]["advisories"]["items"]["pattern"]
+        history = json.loads((ROOT / "data" / "security-patch-history.json").read_text(encoding="utf-8"))
+        identifiers = {item for record in history["records"] for item in record["advisories"]}
+        for identifier in identifiers:
+            for candidate in (identifier, identifier.lower()):
+                with self.subTest(identifier=candidate):
+                    self.assertIsNotNone(re.fullmatch(pattern, candidate))
+        for malformed in ("GHSA-0000-0000-0000", "CVE-2026-nope", "CVE-2026-1234-extra"):
+            self.assertIsNone(re.fullmatch(pattern, malformed))
+
     def test_schema_and_runtime_categories_match(self) -> None:
         schema = json.loads(SCHEMA.read_text(encoding="utf-8"))
         record = schema["$defs"]["record"]
