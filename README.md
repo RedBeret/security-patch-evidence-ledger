@@ -11,6 +11,10 @@ The current account history and generated certification package are in data/secu
 
 It can prove that a supplied set of merged PR records is internally consistent and that all generated totals reconcile to those records. It does **not** claim that every repository vulnerability is fixed, replace a vulnerability scanner, or turn estimated hours into a time sheet.
 
+The current snapshot contains 48 merged security-related PRs across 18 repositories: 46 dependency changes and 2 hardening changes. Its 54 CVE/GHSA identifiers can include aliases for the same vulnerability. Estimated hands-on effort totals 41.25 hours.
+
+Merge status is checked during source review. The offline CLI validates supplied fields and totals without contacting GitHub. Checksum verification detects file changes relative to the manifest; author authentication requires a trusted copy of that manifest.
+
 ## Quick start
 
 ```powershell

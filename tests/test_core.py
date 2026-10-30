@@ -25,7 +25,7 @@ class LedgerTests(unittest.TestCase):
         ledger = load_ledger(FIXTURE)
         with tempfile.TemporaryDirectory() as temp_dir:
             markdown_path, csv_path, json_path = build_reports(ledger, temp_dir)
-            self.assertIn("Merged security-remediation PRs: **3**", markdown_path.read_text(encoding="utf-8"))
+            self.assertIn("Merged security-related PRs (remediation and hardening): **3**", markdown_path.read_text(encoding="utf-8"))
             with csv_path.open(encoding="utf-8", newline="") as handle:
                 self.assertEqual(len(list(csv.DictReader(handle))), 3)
             self.assertEqual(json.loads(json_path.read_text(encoding="utf-8"))["estimated_hours"], 1.75)

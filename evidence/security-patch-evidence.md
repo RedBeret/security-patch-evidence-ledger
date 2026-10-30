@@ -5,10 +5,11 @@ Generated: **2026-10-26T04:30:00Z**
 
 ## Summary
 
-- Merged security-remediation PRs: **48**
+- Merged security-related PRs (remediation and hardening): **48**
 - Distinct CVE/GHSA identifiers: **54**
 - Estimated hands-on hours: **41.25**
 - Disclosure: hours are reconstructed estimates from repository evidence, not contemporaneous time-sheet entries.
+- CVE and GHSA identifiers may refer to the same vulnerability; this is an identifier count.
 
 ## Timeline
 
@@ -65,4 +66,6 @@ Generated: **2026-10-26T04:30:00Z**
 
 ## Attestation boundary
 
-This report counts only merged pull requests supplied in the validated ledger. Open, closed-unmerged, duplicated, or malformed records are rejected or excluded before report generation.
+Merge status and security relevance must be checked against GitHub before records are supplied. The offline validator checks record structure, PR URL consistency, duplicates, timestamps, and estimates; it does not contact GitHub or independently confirm that a PR was merged.
+
+SHA-256 checksums detect changes relative to a trusted manifest. They do not authenticate the author or establish the truth of source records.

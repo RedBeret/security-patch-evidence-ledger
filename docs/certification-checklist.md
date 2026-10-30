@@ -15,7 +15,7 @@ Use this checklist before submitting a security-certification reinstatement pack
 
 ## Submission language
 
-State the merged-PR count, date range, distinct advisory count, and estimated hands-on hours. Clearly label hours as reconstructed estimates. Avoid claiming that the history proves all repository alerts are closed or that estimates are time-sheet entries.
+State the merged-PR count, date range, distinct CVE/GHSA identifier count, and estimated hands-on hours. Include hardening work in the description when it is counted. CVE and GHSA aliases can identify the same vulnerability, so identifiers are not a deduplicated vulnerability count. Confirm the issuer's rules for eligible work and estimated hours before requesting credit.
 
 ## Reviewer handoff
 
@@ -32,4 +32,4 @@ Ask the reviewer to spot-check several PR links, compare row counts across forma
 
 ## Suggested statement template
 
-> I maintain a documented history of **[count]** merged security-remediation pull requests from **[start date]** through **[end date]**. The linked PR evidence identifies **[advisory count]** distinct CVE/GHSA advisories. Using the documented scope-based method, the work represents approximately **[hours] estimated hands-on hours**. These are reconstructed estimates from repository evidence, not contemporaneous time-sheet entries.
+> I maintain a documented history of **[count]** merged security-related pull requests, including remediation and hardening, from **[start date]** through **[end date]**. The PR descriptions contain **[identifier count]** distinct CVE/GHSA identifiers. Using the documented scope-based method, the work represents approximately **[hours] estimated hands-on hours**. These are reconstructed estimates from repository evidence, not contemporaneous time-sheet entries.
