@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+import html
 import json
 import re
 from collections import Counter
@@ -238,12 +239,20 @@ def write_csv(ledger: Ledger, destination: Path) -> None:
             ]])
 
 
+def _markdown_text(value: str) -> str:
+    """Render record text literally inside Markdown without active links or HTML."""
+    text = html.escape(" ".join(value.split()), quote=False)
+    for character in "\\`*_{}[]()!|":
+        text = text.replace(character, "\\" + character)
+    return text
+
+
 def write_markdown(ledger: Ledger, destination: Path) -> None:
     summary = summarize(ledger)
     lines = [
         "# Security Patch Evidence Ledger",
         "",
-        f"Owner: **{ledger.owner}**  ",
+        f"Owner: **{_markdown_text(ledger.owner)}**  ",
         f"Generated: **{summary['generated_at']}**",
         "",
         "## Summary",
@@ -261,7 +270,7 @@ def write_markdown(ledger: Ledger, destination: Path) -> None:
     for record in ledger.records:
         advisories = ", ".join(record.advisories) or "Security remediation documented without embedded ID"
         validations = ", ".join(record.validations)
-        title = " ".join(record.title.split()).replace("|", "\\|")
+        title = _markdown_text(record.title)
         lines.append(
             f"| {record.merged_at.date().isoformat()} | [{record.repository}#{record.number}]({record.url}) — {title} | "
             f"{record.category} | {advisories} | {validations} | {record.estimate_hours} |"
