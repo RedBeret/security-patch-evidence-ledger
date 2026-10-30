@@ -85,6 +85,21 @@ class LedgerTests(unittest.TestCase):
                 row = next(csv.DictReader(handle))
             self.assertTrue(row["title"].startswith("'="))
 
+    def test_markdown_record_text_is_rendered_literally(self) -> None:
+        raw = json.loads(FIXTURE.read_text(encoding="utf-8"))
+        raw["owner"] = "<img src=x>"
+        raw["records"][0]["title"] = "<script>alert(1)</script> [click](https://example.invalid) | **bold**\nnew row"
+        with tempfile.TemporaryDirectory() as temp_dir:
+            source = Path(temp_dir) / "markup.json"
+            source.write_text(json.dumps(raw), encoding="utf-8")
+            markdown, _, _ = build_reports(load_ledger(source), Path(temp_dir) / "out")
+            text = markdown.read_text(encoding="utf-8")
+            self.assertNotIn("<script>", text)
+            self.assertNotIn("<img", text)
+            self.assertNotIn("[click](", text)
+            self.assertIn(r"\[click\]\(https://example.invalid\)", text)
+            self.assertIn(r"\| \*\*bold\*\* new row", text)
+
 
 if __name__ == "__main__":
     unittest.main()
